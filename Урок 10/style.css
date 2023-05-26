@@ -1,0 +1,31 @@
+body{
+    background-color: #8B008B;
+    background-image: url("./images/magic-ball.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 70%;
+}
+
+#btn{
+    background-color: #8B008B;
+    border: none;
+    width: 250px;
+    height: 60px;
+    border-radius: 4px;
+
+    color: #ffffff;
+    font-family: Tahoma;
+    font-weight: 400;
+    font-size: 16px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn:hover{
+    background-color: #00008B;
+}
